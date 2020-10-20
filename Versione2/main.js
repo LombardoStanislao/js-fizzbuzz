@@ -15,15 +15,18 @@ for (var i = 0; i < array.length; i++) {
 
     if ((array[i] % 3 == 0) && (array[i] % 5 == 0))  {
 
-        console.log(array[i]= 'FizzBuzz');
+        array[i] = 'FizzBuzz';
+        console.log(array[i]);
 
     } else if (array[i] % 5 == 0) {
 
-        console.log(array[i]= 'Buzz');
+        array[i] = 'Buzz';
+        console.log(array[i]);
 
     } else if (array[i] % 3 == 0) {
 
-        console.log( array[i]= 'Fizz');
+        array[i]= 'Fizz';
+        console.log(array[i]);
 
     } else {
 
