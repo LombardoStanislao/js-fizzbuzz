@@ -10,19 +10,19 @@ for (var i = 1; i <= 100; i++) {
 
     if ((i % 3 === 0) && (i % 5 === 0))  {
 
-        array.slice( 1, 1 'FizzBuzz')
+        array[i]= 'FizzBuzz'
 
     } else if (i % 5 === 0) {
 
-        array.slice(1,1 'Buzz')
+        array[i]= 'Buzz'
 
     } else if (i % 3 === 0) {
 
-         array.slice(1,1 'Fizz')
+         array[i]= 'Fizz'
 
     } else {
 
-
+        array[i]
     }
 
 }
