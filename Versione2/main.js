@@ -3,28 +3,28 @@
 // al posto dei multipli di 5, deve stampare "Buzz"
 // al posto dei multipli sia di 3 che di 5, deve stampare "FizzBuzz"
 
-
+var array = [];
 // al posto dei multipli di 3, deve stampare "Fizz"
 for (var i = 1; i <= 100; i++) {
 
 
     if ((i % 3 === 0) && (i % 5 === 0))  {
 
-        console.log('FizzBuzz');
+        array.slice( 1, 1 'FizzBuzz')
 
     } else if (i % 5 === 0) {
 
-        console.log('Buzz');
+        array.slice(1,1 'Buzz')
 
     } else if (i % 3 === 0) {
 
-         console.log('Fizz');
+         array.slice(1,1 'Fizz')
 
     } else {
 
-        console.log(i);
+
     }
 
-
-
 }
+
+console.log(array);
